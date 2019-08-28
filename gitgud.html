@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Command Line - a text-based adventure!</title>
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/sky.css">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        
+        <section>
+          <h1>Command Line</h1>
+          <h3>a quick refresher</h3>
+          <a href="https://www.howldesign.com/presentations/commandline/Command_Line_JXN_webapp_meetup_talk.pdf">Download PDF</a>
+        </section>
+
+        <section>
+          <h3>Sam Johnson</h3>
+          <ul>
+            <li>Works at Howl Design since 2007</li>
+            <li>Previously worked for Skytel, Cytec, Itron Cellular solutions (SmartSynch), Saks</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>What is the Command Line?</h3>
+          <p>Text interface to an operating system.</p>
+        </section>
+
+        <section>
+          <h3>It's 2018 Why Use Command Line?</h3>
+          <ul>
+            <li>Interact with non-GUI servers</li>
+            <li>Somethings are easier on command line</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Where is the Command Line?</h3>
+          <p>Mac: Command + Space Bar then type Terminal</p>
+          <p>Windows: Start Button -> type cmd and open "Command Prompt"</p>
+        </section>
+
+        <section>
+          <h3>Print Working Directory</h3>
+          <p>Mac: pwd</p>
+          <p>Windows: cd</p>
+          <p>Windows uses backslash separator while Mac uses forward slash</p>
+        </section>
+
+        <section>
+          <h3>Display Manual Page</h3>
+          <p>Mac: man</p>
+          <p>Windows: help</p>
+        </section>
+        
+        <section>
+          <h3>Flags and Switches</h3>
+          <p>Mac: dash (-)</p>
+          <p>Windows: forward slash (/)</p>
+        </section>
+
+        <section>
+          <h3>List files</h3>
+          <p>Mac: ls</p>
+          <p>Windows: dir</p>
+        </section>
+
+        <section>
+          <h3>Change Directory</h3>
+          <p>Mac: cd</p>
+          <p>Windows: cd</p>
+        </section>
+
+        <section>
+          <h3>Use Tab and always forget everything</h3>
+        </section>
+
+        <section>
+          <h3>Use Up arrow for command history</h3>
+        </section>
+
+        <section>
+          <h3>Environment Variables</h3>
+          <p>Mac: env</p>
+          <p>Windows: set</p>
+        </section>
+
+        <section>
+          <h3>$PATH and %PATH%</h3>
+        </section>
+
+        <section>
+          <h3>Which command am I using?</h3>
+          <p>Mac: which</p>
+          <p>Windows: where</p>
+        </section>
+
+        <section>
+          <p>Mac EOF: <em>Control + D</em></p>
+          <p>Windows EOF: <em>Control + Z</em></p>
+          <em>Control + C</em>: stops things that are running</p>
+        </section>
+
+        <section>
+          <h3>Pipe Symbol: |</h3>
+        </section>
+
+        <section>
+          <h3>Word Count (I only use it for line counting)</h3>
+          <p>Mac: wc -l</p>
+          <p>Windows: find /c /v ""</p>
+        </section>
+
+        <section>
+          <h3>Copy</h3>
+          <p>Mac: cp</p>
+          <p>Windows: copy</p>
+        </section>
+
+        <section>
+          <h3>Move</h3>
+          <p>Mac: mv</p>
+          <p>Windows: move</p>
+        </section>
+
+        <section>
+          <h3>Remove</h3>
+          <p>Mac: rm</p>
+          <p>Windows: del</p>
+        </section>
+
+        <section>
+          <h3>Make Directory</h3>
+          <p>Mac: mkdir</p>
+          <p>Windows: mkdir</p>
+        </section>
+
+        <section>
+          <h3>Change Mode</h3>
+          <p>Mac: chmod</p>
+          <p>Windows: it's a little wackier</p>
+        </section>
+
+        <section>
+          <h3>Read a Text File</h3>
+          <p>Mac: more</p>
+          <p>Windows: more</p>
+        </section>
+
+        <section>
+          <h3>Find a File</h3>
+          <p>Mac: find . -name "name" -print</p>
+          <p>Windows: find /c "name" </p>
+        </section>
+
+        <section>
+          <h3>Other Fun Commands</h3>
+          <ul>
+            <li>ps</li>
+            <li>kill</li>
+            <li>grep</li>
+            <li>whois</li>
+            <li>nslookup</li>
+            <li>ping</li>
+          </ul>
+        </section>
+      </div>
+    </div>  
+
+    <script src="js/reveal.js"></script>
+		<script>
+			Reveal.initialize();
+      Reveal.configure({ pdfMaxPagesPerSlide: 1 })
+    </script>
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </body>
+</html>
